@@ -26,7 +26,11 @@ var limite = 30
 
     resultados.innerHTML += `<p id="textoSelecao">${selecao}</p> <p>R$${gasto.toFixed(2)} </p>` // Adiciona a seleção e o valor ao HTML
     totalSoma += gasto // Adiciona o valor ao total
-    divTotal.innerHTML = `<p>Total</p><p>R$${totalSoma.toFixed(1)}</p>` // Adiciona o total ao HTML
+    divTotal.innerHTML = `<p>Total</p><p>R$${totalSoma.toFixed(2)}</p>` // Adiciona o total ao HTML
+    if (btn) {
+      selection.value = "Selecionar"
+      gastos.value = "0"
+    }
 }) 
 
 btn.addEventListener("click", () => {
