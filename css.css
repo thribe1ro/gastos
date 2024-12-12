@@ -62,7 +62,6 @@
     }
     /* SELECT */
     #selecao {
-        overflow: hidden;
         background: #788fd2;
         width: 10rem;
         height: 3rem;
@@ -71,12 +70,15 @@
         font-family: var(--font-main);
         font-size: 15pt;
         text-align: center;
-        padding: 13px 0px;
+        line-height: 3rem;
         color: #fff;
-        text-indent: 0.01px;
-        text-overflow: "";
         -webkit-appearance: none;
         -moz-appearance: none;
+        appearance: none;
+        background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23FFF" viewBox="0 0 20 20"><path d="M6 8l4 4 4-4"/></svg>');
+        background-repeat: no-repeat;
+        background-position: calc(100% - 0.5rem) center;
+        background-size: 1rem;
     }
     
     /* INPUT */
@@ -214,7 +216,7 @@
         font-family: var(--font-main);
         font-size: 15pt;
         text-align: center;
-        line-height: 3rem; /* Ajusta o texto verticalmente */
+        line-height: 3rem;
         color: #fff;
         -webkit-appearance: none;
         -moz-appearance: none;
