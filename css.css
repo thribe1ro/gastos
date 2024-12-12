@@ -153,6 +153,7 @@
     #resultados p {
         font-size: 20pt;
         font-weight: 600;
+        margin-bottom: 3px;
     }
     
     #textoSelecao {
@@ -296,6 +297,7 @@
     #resultados p {
         font-size: 20pt;
         font-weight: 600;
+        margin-bottom: 3px;
     }
     
     #textoSelecao {
