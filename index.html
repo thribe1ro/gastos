@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <main>
+        <div id="quadrado">
+            <div id="quadradoGastos">
+                
+                <select name="selecao" id="selecao">
+                    <option value="Selecionar">Selecionar</option>
+                    <option value="MRV">MRV</option>
+                    <option value="CAIXA">CAIXA</option>
+                    <option value="CARRO">Carro</option>
+                    <option value="Crédito">Crédito</option>
+                    <option value="Luz">Luz</option>
+                    <option value="Internet">Internet</option>
+                    <option value="EMScash">EMScash</option>
+                </select>
+                <div id="input">
+                <input type="number" id="gastos" value="0">
+            </div>
+                <div id="botao">
+                <button id="adicionar">Adicionar</button>
+            </div>
+                <div id="somar">
+                <div id="resultados"></div>
+            </div>
+            <div id="total"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
