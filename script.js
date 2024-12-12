@@ -5,7 +5,7 @@ var divTotal = document.getElementById("total")
 var btn = document.getElementById("adicionar")
 
 var totalSoma = 0
-var limite = 30
+var limite = 32
 
   btn.addEventListener("click", () => {
     var selecao = selection.value // Seleciona o valor da opção MRV
