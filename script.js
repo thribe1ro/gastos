@@ -8,7 +8,7 @@ var totalSoma = 0
 var limite = 32
 
   btn.addEventListener("click", () => {
-    var selecao = selection.value // Seleciona o valor da opção MRV
+    var selecao = selection.value // Seleciona o valor da opção
     var gasto = parseFloat(gastos.value) // Converte o valor para float
     if (selecao == "Selecionar") {
         selection.style.color = "red"
@@ -34,11 +34,11 @@ var limite = 32
 }) 
 
 btn.addEventListener("click", () => {
-  const totalElementos = resultados.childElementCount;
+  let totalElementos = resultados.childElementCount;
   if (totalElementos >= limite) {
     alert("Limite de 30 elementos atingido!");
     btn.disabled = true;
-    btn.style.background = "white";
+    btn.style.background = "#fff";
     return
   }
 })
