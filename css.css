@@ -217,10 +217,10 @@
         text-align: center;
         padding: 13px 0px;
         color: #fff;
-        text-indent: 0.01px;
         text-overflow: "";
         -webkit-appearance: none;
         -moz-appearance: none;
+        appearance: none;
     }
     
     /* INPUT */
